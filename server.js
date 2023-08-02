@@ -40,7 +40,9 @@ db.mongoose
 
 /* In server.js */
 var corsOptions = {
-  origin: ["http://localhost:3001"],
+  //origin: ["http://localhost:3001"],
+  origin: ["https://kaleidoscopic-mooncake-b5181e.netlify.app"],
+  
   credentials: true}
 
  
